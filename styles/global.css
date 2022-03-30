@@ -1,0 +1,173 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('about.css');
+@import url('contact.css');
+@import url('index.css');
+@import url('gowns.css');
+@import url('footwear.css');
+@import url('footer.css');
+
+/* Global Reset */
+:root {
+  --primaryColor: #094b7f;
+  --secondaryColor: #a3cd39;
+  --textColor: #2f3a44;
+  --white: #fefefe;
+  --accent-text: #a3cd39;
+  --titleFont: 'Poppins', sans-serif;
+  --bodyFont: 'Urbanist', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.audma-btn-primary {
+  background-color: var(--primaryColor);
+  color: var(--white);
+  border: none;
+  padding: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--textColor);
+}
+
+a .active {
+  color: var(--secondaryColor);
+}
+
+.accent-text {
+  font-weight: 500;
+}
+
+.audma-btn-primary:hover {
+  color: var(--secondaryColor);
+}
+
+body {
+  color: var(--textColor);
+  font-family: var(--bodyFont);
+  font-size: 18px;
+}
+
+.dropdown-menu {
+  width: 350px;
+  border-top: 5px solid var(--secondaryColor);
+}
+
+.menu-bar {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  font-size: 38px;
+  font-weight: 301;
+  color: var(--textColor);
+  cursor: pointer;
+  /* display: none; */
+}
+
+.close-menu {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  font-size: 38px;
+  color: var(--textColor);
+  cursor: pointer;
+  display: none;
+  z-index: 301;
+}
+
+/* Mobile Menu */
+.mobile-menu-section {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--primaryColor);
+  text-align: center;
+  z-index: 300;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-menu-body {
+  margin-top: 40px;
+}
+
+.mobile-menu-header a {
+  color: var(--white);
+}
+
+.mobile-menu-body .nav-link {
+  color: var(--white);
+}
+
+
+@media (max-width: 575.98px) {
+
+  .topbar {
+    display: none;
+  }
+
+  .hero-title {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 991.98px) {
+
+  .topbar {
+    display: none;
+  }
+
+  .header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    opacity: .95;
+    width: 100%;
+    height: 100px;
+    padding: 20px 0px;
+    z-index: 100;
+    /* border-bottom: 1px solid ; */
+    box-shadow: 0 .5rem 1rem rgba(3,3,3, .15);;
+  }
+
+  .navbar-nav {
+    display: none;
+  }
+  .logo {
+    left: 0%;
+    background: none;
+  }
+  .logo img {
+    max-width: 70px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+
+  .hero {
+    height: 80vh;
+  }
+
+  .hero-title {
+    text-align: center;
+  }
+
+  .hero-left p {
+    text-align: center;
+  }
+}
+
+
+
+

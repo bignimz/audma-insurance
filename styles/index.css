@@ -1,0 +1,364 @@
+/* TOPBAR */
+.topbar {
+    background-color: var(--secondaryColor);
+}
+
+.topbar-content {
+    color: var(--primaryColor);
+    font-size: 18px;
+    font-family: var(--titleFont);
+    font-weight: 500;
+}
+
+.topbar-content a {
+    color: var(--primaryColor);
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(to right, rgba(9, 75, 127, .8), rgba(0,0,0,1)), url("/assets/images/4029191.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.navbar {
+    align-items: center;
+}
+
+.logo {
+
+    position: absolute;
+    left: 40%;
+    top: -105px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 0px 0px 50% 50%;
+    z-index: 1;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link i {
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: var(--titleFont);
+    font-weight: 500;
+}
+
+.nav-item .nav-link {
+    font-size: 18px;
+    color: var(--white);
+    font-family: var(--titleFont);
+    font-weight: 500;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.nav-item .nav-link:hover {
+    color: var(--secondaryColor);
+}
+
+#navigations {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Hero Section */
+.hero {
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(to right, rgba(9, 75, 127, .9), rgba(0,0,0, .9)), url("/assets/images/4029191.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    color: var(--white);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.hero-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-title {
+    font-size: 44px;
+    color: var(--white);
+}
+
+.hero-color {
+    color: var(--secondaryColor);
+}
+
+.accent-text {
+    color: var(--accent-text);
+}
+
+.hero-right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right-side img {
+    width: 700px;
+    border-radius: 10px;
+    
+}
+
+/* Hero Cards */
+
+.after-hero {
+    width: 100%;
+    background-color: lightgray;
+    margin-top: -50px;
+}
+
+.insurance-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+.ins-card {
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid var(--secondaryColor);
+    background-color: var(--white);
+    transition: all ease-in .3s;
+    cursor: pointer;
+}
+
+.card-body {
+    color: var(--textColor);
+}
+
+.card-body:hover {
+    color: var(--white);
+}
+
+.ins-card:hover {
+    background-color: var(--primaryColor);
+}
+
+.card-icon {
+    margin-bottom: 20px;
+}
+
+.card-icon i {
+    font-size: 28px;
+    color: var(--primaryColor);
+    text-align: center;
+
+}
+
+.card-body:hover i {
+    color: var(--white);
+}
+
+/* INTRO SECTION */
+
+.intro-section {
+    width: 100%;
+}
+
+.pretitle {
+    text-transform: uppercase;
+    font-family: var(--bodyFont);
+    font-weight: 600;
+}
+
+.intro-title {
+    font-size: 40px;
+    font-family: var(--titleFont);
+    margin-bottom: 30px;
+}
+
+.intro-content {
+    font-size: 20px;
+}
+
+.intro-section {
+    background-image:linear-gradient(to right, rgba(227, 224, 231,.7), rgb(227, 224, 231)), url("/assets/images/intro.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.intro-btn {
+    padding: 1rem 4rem;
+    background-color: var(--primaryColor);
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    transition: linear .4s;
+}
+
+.intro-btn:hover {
+    background-color: var(--secondaryColor);
+}
+
+/* INSURANCE PRODUCTS SECTION */
+
+.products-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.products-title {
+    font-size: 32px;
+    font-family: var(--titleFont);
+}
+
+/* WHY CHOOSE SECTION */
+
+.shape {
+    position: absolute;
+    right: 40px;
+    z-index: -1;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: var(--secondaryColor);
+    opacity: .8;
+    border: none;
+    transform: rotate(30deg);
+}
+
+.shape2 {
+    position: absolute;
+    left: 40px;
+    z-index: -1;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: var(--secondaryColor);
+    opacity: .8;
+    border: none;
+    transform: rotate(-30deg);
+}
+
+.why-img img {
+    width: 600px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.why-pretitle {
+    font-size: 18px;
+    font-family: var(--bodyFont);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.why-title {
+    font-size: 38px;
+    font-family: var(--titleFont);
+    font-weight: 600;
+}
+
+.why-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--textColor);
+    margin-bottom: 20px;
+}
+
+.more a {
+    text-decoration: none;
+    font-family: var(--bodyFont);
+    font-size: 20px;
+    color: var(--textColor);
+}
+
+.more a:hover {
+    color: var(--secondaryColor);
+}
+
+.more a:hover>i {
+    font-size: 22px;
+    width: 28px;
+}
+
+/* PARTNERS SECTION */
+.partner img {
+    /* width: 235px;
+    height: 114px; */
+    margin: 20px;
+}
+
+/* FOOTER SECTION */
+.footer {
+    width: 100%;
+    background-color: var(--primaryColor);
+    color: var(--white);
+    font-family: var(--titleFont);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footer-about {
+    font-size: 16px;
+    line-height: 2rem;
+}
+
+.cover-item {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.cover-item a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 16px;
+}
+
+.cover-item a:hover {
+    color: var(--secondaryColor);
+}
+
+.address i {
+    font-size: 24px;
+    margin: 12px;
+    color: var(--secondaryColor);
+}
+
+.address-link {
+    color: var(--white);
+}
+
+.address-link:hover {
+    color: var(--secondaryColor);
+}
+
+.copyright {
+    background-color: var(--white);
+    color: var(--textColor);
+    font-size: 15px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--textColor);
+}

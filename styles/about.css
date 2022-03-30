@@ -1,0 +1,52 @@
+.about-header {
+    width: 100%;
+}
+
+.theme-nav-items .nav-item {
+    font-size: 16px;
+}
+
+.theme-nav-items .nav-item .nav-link {
+    color: #333;
+    font-size: 16px;
+}
+
+.breadcrumb {
+    width: 100%;
+    background-color: lightgray;
+}
+
+.about-intro {
+    position: relative;
+}
+
+.about-title {
+    font-size: 22px;
+    font-family: var(--titleFont);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.about-text {
+    font-size: 18px;
+}
+
+.about-content-desc {
+    position: relative;
+    max-width: 750px;
+    background-color: var(--white);
+    border-radius: 20px;
+    color: #777;
+    z-index: 20;
+}
+
+.about-right img {
+    position: absolute;
+    right: 0px;
+    top: -15px;
+    border-radius: 0px 0px 0px 20px;
+    margin-top: 0px;
+    z-index: 10;
+    margin-bottom: 30px;
+}
+
