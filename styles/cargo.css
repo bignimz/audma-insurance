@@ -1,0 +1,58 @@
+.cargo-insurance-right {
+    height: 800px;
+    background-image: url("/assets/images/marine-cargo-insurance.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.insurance-right {
+    background-image: url("/assets/images/products/new-property.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 80vh;
+}
+
+.ins-content {
+    padding-bottom: 30px;
+}
+
+.ins-title {
+    font-family: var(--titleFont);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.ins-text {
+    line-height: 35px;
+    font-size: 18px;
+    font-family: var(--titleFont);
+    font-weight: 400;
+}
+
+.about-insurance {
+    background-color: #ececec;
+}
+
+.ins-btn {
+    background-color: var(--secondaryColor);
+    color: var(--white);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: var(--titleFont);
+    padding: 20px 40px;
+    border-radius: 40px;
+}
+
+.ins-btn:hover {
+    background-color: var(--primaryColor);
+    color: var(--white);
+}
+
+.covered-items {
+    background-color: none;
+}
+
+.cta-buttons {
+    background-color: #111;
+    padding: 30px;
+}

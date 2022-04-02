@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/icons/fav.png" type="image/x-icon">
-    <title>Audma Insurance Company</title>
+    <title>Audma Insurance Agency Company</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -66,7 +66,7 @@
                                         <li>
                                           <a class="dropdown-item" href="#">Submenu item 5</a>
                                         </li>
-                                      </ul>
+                                    </ul>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="dropdown-item" href="#">Life Insurance</a>
@@ -105,12 +105,31 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Our Covers
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                              </ul>
+                            <ul class="dropdown-menu dropdown-submenu">
+                                <li>
+                                    <a class="dropdown-item" href="#">Submenu item 1</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Submenu item 2</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Multi level 1</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Multi level 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Submenu item 4</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Submenu item 5</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="index.html">Faq</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">Claims</a></li>
@@ -167,33 +186,39 @@
                             <div class="card-body">
                                 <div class="card-icon"><i class="fa-solid fa-house-chimney"></i></div>
                                 <h5 class="card-title">Property Insurance</h5>
-                                <p class="card-text">Covers against Loss of or Damage to Property</p>
+                                <p class="card-text">Covers against Loss of or Damage to Property...</p>
                             </div>
                         </a>
                     </div>
     
                     <div class="card text-white mb-3 mx-auto ins-card" style="max-width: 16rem;">
-                        <div class="card-body">
-                            <div class="card-icon"><i class="fa-solid fa-ship"></i></div>
-                            <h5 class="card-title">Marine Cargo</h5>
-                            <p class="card-text">Covers against Loss of or Damage to Property</p>
-                        </div>
+                        <a href="marine-cargo.html">
+                            <div class="card-body">
+                                <div class="card-icon"><i class="fa-solid fa-ship"></i></div>
+                                <h5 class="card-title">Marine Cargo</h5>
+                                <p class="card-text">Covers the loss or damage to the Cargo...</p>
+                            </div>
+                        </a>
                     </div>
     
                     <div class="card text-white mb-3 mx-auto ins-card" style="max-width: 16rem;">
-                        <div class="card-body">
-                            <div class="card-icon"><i class="fa-solid fa-car-burst"></i></div>
-                            <h5 class="card-title">Motor Insurance</h5>
-                            <p class="card-text">Covers against Loss of or Damage to Property</p>
-                        </div>
+                        <a href="motor-insurance.html">
+                            <div class="card-body">
+                                <div class="card-icon"><i class="fa-solid fa-car-burst"></i></div>
+                                <h5 class="card-title">Motor Insurance</h5>
+                                <p class="card-text">provides cover to the insured vehicles for Comprehensive risks</p>
+                            </div>
+                        </a>
                     </div>
     
                     <div class="card text-white mb-3 mx-auto ins-card" style="max-width: 16rem;">
-                        <div class="card-body">
-                            <div class="card-icon"><i class="fa-solid fa-person-walking-luggage"></i></div>
-                            <h5 class="card-title">Travel Insurance</h5>
-                            <p class="card-text">Covers against Loss of or Damage to Property</p>
-                        </div>
+                        <a href="travel-insurance.html">
+                            <div class="card-body">
+                                <div class="card-icon"><i class="fa-solid fa-person-walking-luggage"></i></div>
+                                <h5 class="card-title">Travel Insurance</h5>
+                                <p class="card-text">Travel insurance provides you with a 24 Hour...</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -439,30 +464,30 @@
         <section class="partners py-5">
             <p class="display-6 text-center mb-4">Our Partners</p>
             <div class="container">
-                <div class="row row-cols-lg-4">
+                <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2">
                     <div class="partner">
-                        <img src="assets/icons/partners/CIC_Group_Logo.png"  alt="...">
+                        <img class="img-fluid" src="assets/icons/partners/CIC_Group_Logo.png"  alt="...">
                     </div>
                     <div class="partner">
-                        <img src="assets/icons/partners/apa-logo.png" alt="...">
+                        <img class="img-fluid" src="assets/icons/partners/apa-logo.png" alt="...">
                     </div>
                     <div class="partner">
-                        <img src="assets/icons/partners/jubilee-insurance.png" alt="...">
+                        <img class="img-fluid" src="assets/icons/partners/jubilee-insurance.png" alt="...">
                     </div>
                     <div class="partner">
-                        <img src="assets/icons/partners/Britam-Insurance.png" alt="...">
+                        <img class="img-fluid" src="assets/icons/partners/Britam-Insurance.png" alt="...">
                     </div>
                     <div class="partner">
-                        <img src="assets/icons/partners/monarch-ins.png" alt="...">
+                        <img class="img-fluid" src="assets/icons/partners/monarch-ins.png" alt="...">
                     </div>
                     <div class="partner">
-                        <img src="assets/icons/partners/uap-logo.jpg" alt="...">
+                        <img class="img-fluid" src="assets/icons/partners/uap-logo.jpg" alt="...">
                     </div>
                     <div class="partner">
-                        <img src="assets/icons/partners/directline-assurance.png" alt="...">
+                        <img class="img-fluid" src="assets/icons/partners/directline-assurance.png" alt="...">
                     </div>
                     <div class="partner">
-                        <img src="assets/icons/partners/icea-logo.png" alt="...">
+                        <img class="img-fluid" src="assets/icons/partners/icea-logo.png" alt="...">
                     </div>
                 </div>
             </div>
