@@ -14,11 +14,12 @@
 }
 
 .reach-us {
-    font-size: 36px;
+    font-size: 30px;
     margin-bottom: 60px;
     font-family: var(--titleFont);
     font-weight: 700;
 }
+
 
 .right-wrapper {
     width: 500px;
@@ -26,7 +27,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 24px;
+    font-size: 18px;
     border: 2px solid white;
     padding: 20px;
     border-radius: 10px;

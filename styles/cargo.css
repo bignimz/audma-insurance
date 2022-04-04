@@ -17,14 +17,21 @@
 }
 
 .ins-title {
+    font-size: 26px;
     font-family: var(--titleFont);
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 20px;
+}
+
+.ins-subtitle {
+    font-size: 24px;
+    font-family: var(--titleFont);
+    font-weight: 600;
 }
 
 .ins-text {
     line-height: 35px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: var(--titleFont);
     font-weight: 400;
 }
@@ -50,6 +57,7 @@
 
 .covered-items {
     background-color: none;
+    font-size: 16px;
 }
 
 .cta-buttons {

@@ -109,6 +109,119 @@ body {
   color: var(--white);
 }
 
+/* FOOTER SECTION */
+.footer {
+  width: 100%;
+  background-color: var(--primaryColor);
+  color: var(--white);
+  font-family: var(--titleFont);
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.footer-title {
+  font-size: 22px;
+}
+
+.footer-about {
+  font-size: 14px;
+  line-height: 2rem;
+}
+
+.cover-item {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.cover-item a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 14px;
+}
+
+.cover-item a:hover {
+  color: var(--secondaryColor);
+}
+
+.address i {
+  font-size: 24px;
+  margin: 12px;
+  color: var(--secondaryColor);
+}
+
+.address-link {
+  color: var(--white);
+}
+
+.address-link:hover {
+  color: var(--secondaryColor);
+}
+
+.copyright {
+  background-color: var(--white);
+  color: var(--textColor);
+  font-size: 15px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--textColor);
+}
+
+/* INSURANCE PAGES */
+.ins-content {
+  padding-bottom: 30px;
+}
+
+.ins-title {
+  font-size: 26px;
+  font-family: var(--titleFont);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.ins-subtitle {
+  font-size: 24px;
+  font-family: var(--titleFont);
+  font-weight: 600;
+}
+
+.ins-text {
+  line-height: 35px;
+  font-size: 16px;
+  font-family: var(--titleFont);
+  font-weight: 400;
+}
+
+.about-insurance {
+  background-color: #ececec;
+}
+
+.ins-btn {
+  background-color: var(--secondaryColor);
+  color: var(--white);
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: var(--titleFont);
+  padding: 20px 40px;
+  border-radius: 40px;
+}
+
+.ins-btn:hover {
+  background-color: var(--primaryColor);
+  color: var(--white);
+}
+
+.covered-items {
+  background-color: none;
+  font-size: 16px;
+}
+
+.cta-buttons {
+  background-color: #111;
+  padding: 30px;
+}
+
 
 @media (max-width: 575.98px) {
 

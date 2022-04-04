@@ -10,6 +10,7 @@
 }
 
 .ins-title {
+    font-size: 28px;
     font-family: var(--titleFont);
     font-weight: 700;
     margin-bottom: 20px;
@@ -17,7 +18,7 @@
 
 .ins-text {
     line-height: 35px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: var(--titleFont);
     font-weight: 400;
 }
