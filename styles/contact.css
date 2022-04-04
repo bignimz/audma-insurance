@@ -4,7 +4,7 @@
 
 .contact-right {
     height: 800px;
-    background-image:linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,.7)), url("./assets/images/about/about-img-2.jpg");
+    background-image:linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,.7)), url("/./assets/images/about/about-img-2.jpg");
     background-position: right;
     background-size: auto;
     background-repeat: no-repeat;
