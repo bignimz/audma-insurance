@@ -26,6 +26,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  transition: all linear .3s;
+}
+
 .audma-btn-primary {
   background-color: var(--primaryColor);
   color: var(--white);
@@ -158,8 +162,8 @@ body {
 }
 
 .copyright {
-  background-color: var(--white);
-  color: var(--textColor);
+  background-color: #000;
+  color: var(--white);
   font-size: 15px;
 }
 

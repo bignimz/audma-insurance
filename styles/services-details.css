@@ -1,0 +1,67 @@
+.breadcrumb-section {
+      padding-top: 70px;
+      width: 100%;
+      height: 200px;
+      background: linear-gradient(rgba(0, 0, 0, .7), rgba(0,0,0,.8)), url("/assets/images/4029191.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+.breadcrumb {
+      background-color: transparent;
+      margin-top: 30px;
+      text-align: right;
+}
+
+.breadcrumb a {
+      color: white;
+}
+
+.breadcrumb-title {
+      font-family: var(--title);
+      font-size: 32px;
+      font-weight: 600;
+}
+
+/* Service Image */
+.service-image {
+      height: 400px;
+      max-height: 100%;
+      width: 100%;
+}
+
+.service-image img {
+      width: 100%;
+      height: 100%;
+}
+
+/* Service Link */
+.service-link {
+      background-color: #f1f1f1;
+      margin-bottom: 10px;
+      transition: all ease-in-out .3s;
+}
+
+.service-link:hover {
+      background-color: #094b7f;
+      color: white;
+}
+
+.service-active {
+      background-color: #094b7f;
+      color: #a3cd39;
+}
+
+.more-details {
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-radius: 5px;
+      margin: 20px 0px;
+}
+
+.options-title {
+      font-size: 20px;
+      font-family: var(--title);
+      font-weight: 600;
+}
