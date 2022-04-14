@@ -1,18 +1,4 @@
-/* TOPBAR */
-.topbar {
-    background-color: var(--secondaryColor);
-}
 
-.topbar-content {
-    color: var(--primaryColor);
-    font-size: 18px;
-    font-family: var(--titleFont);
-    font-weight: 500;
-}
-
-.topbar-content a {
-    color: var(--primaryColor);
-}
 
 /* HEADER */
 .header {

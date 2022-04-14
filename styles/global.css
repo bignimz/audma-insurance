@@ -65,6 +65,26 @@ body {
   border-top: 5px solid var(--secondaryColor);
 }
 
+/* TOPBAR */
+.topbar {
+  background-color: var(--secondaryColor);
+}
+
+.topbar-content {
+  color: var(--primaryColor);
+  font-size: 18px;
+  font-family: var(--titleFont);
+  font-weight: 500;
+}
+
+.topbar-content a {
+  color: var(--primaryColor);
+}
+
+.topbar-content a:hover {
+  color: var(--textColor);
+}
+
 .menu-bar {
   position: absolute;
   right: 20px;
@@ -169,7 +189,11 @@ body {
 
 .footer-link {
   text-decoration: none;
-  color: var(--textColor);
+  color: var(--white);
+}
+
+.footer-link:hover {
+  color: var(--secondaryColor);
 }
 
 /* INSURANCE PAGES */
