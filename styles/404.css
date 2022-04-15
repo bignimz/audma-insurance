@@ -1,0 +1,21 @@
+body {
+      background-color: #094b7f;
+}
+
+.error-div {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+}
+
+.error-title {
+      font-size: 140px;
+      color: var(--secondaryColor);
+}
+
+.error-details {
+      font-size: 48px;
+      color: var(--white);
+}
