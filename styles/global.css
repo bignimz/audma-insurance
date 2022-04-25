@@ -93,7 +93,6 @@ body {
   font-weight: 301;
   color: var(--textColor);
   cursor: pointer;
-  /* display: none; */
 }
 
 .close-menu {
@@ -123,6 +122,7 @@ body {
 
 .mobile-menu-body {
   margin-top: 40px;
+  color: var(--accent-text);
 }
 
 .mobile-menu-header a {

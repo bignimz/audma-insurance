@@ -22,13 +22,14 @@
 
 .about-title {
     font-size: 22px;
-    font-family: var(--titleFont);
+    font-family: var(--title);
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .about-text {
-    font-size: 16px;
+    font-size: 20px;
+    color: #777;
 }
 
 .about-content-desc {
